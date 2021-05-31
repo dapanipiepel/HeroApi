@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu SuperHero</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+      SuperHero
+    </a>
+</nav>
+<header class="text-center mx-auto">
+  <div class="row">
+    <div class="col-12 col-sm-12">
+      <div id="imgcenter" class="rounded mx-auto d-block"></div>
+      <h1>Encuentre a su SuperHero!</h1>
+    </div>
+  </div>
+</header>
+<section class="text-center mx-auto">
+  <form>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-12">
+        <label>Ingrese el número del SuperHero a buscar</label>
+      </div>
+      <div class="row mx-auto">
+        <div class="col-12 col-sm-12 col-md-12 col-12">
+          <input class="form-control" id="heroInput">
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary mx-auto my-3 d-block">Buscar</button>
+  </form>
+</section>
+<section class="text-center">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-12 " id="SHinfo"></div>
+    <div class="col-12 col-sm-6 col-md-12" id="HeroStats" style="height: 300px; width: auto;"></div>
+  </div>
+</section>
+
+        <!--Popper JS 1.16.1-->
+        <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <!--JQuery 3.6.0-->
+      <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"
+      ></script>
+      <!--Bootstrap JS 4.5.3-->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"
+      ></script>
+      <!--Canvas JS-->
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+      <!-- Mi archivo JavaScript -->
+      <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;  
+}
+#heropic{
+    max-width: 100%;
+    max-height: 100%;
+}
+#imgcenter{
+    background-image: url(/assets/img/sh1.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+}
+@media (max-width: 320px){
+    #imgcenter{
+        background-image: url(/assets/img/sh1.jpg);
+        background-size: cover;
+        height: 150px;
+        width: 200px;
+    }
+}
+#SHinfo, #HeroStats{
+    margin: 10px 10px;
+}
